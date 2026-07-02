@@ -1,4 +1,4 @@
-# 🏠 Bot Rentas CDMX
+# 🏠 Facebook Rentals Scraper
 
 A Node.js bot that scrapes rental listings from Facebook groups and Marketplace (Mexico City) using [Playwright](https://playwright.dev/). It opens a real browser, waits for you to log in to Facebook manually, scrolls through posts, filters by price and area, and generates a **web interface (`resultados.html`)** with filterable cards to review the rentals it found.
 
@@ -31,8 +31,8 @@ A Node.js bot that scrapes rental listings from Facebook groups and Marketplace 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/EdgarAnt/bot-rentas-cdmx.git
-cd bot-rentas-cdmx
+git clone https://github.com/EdgarAnt/facebook-rentals-scraper.git
+cd facebook-rentals-scraper
 
 # 2. Install dependencies
 npm install
@@ -128,7 +128,7 @@ The project uses **ESM modules** (`"type": "module"` in `package.json`), so it u
 ## 📁 Project structure
 
 ```
-bot-rentas-cdmx/
+facebook-rentals-scraper/
 ├── main.js            # Main logic: scraping + filtering + HTML generation
 ├── config.js          # Configurable parameters
 ├── resultados.html    # Generated interface (overwritten on every run)
